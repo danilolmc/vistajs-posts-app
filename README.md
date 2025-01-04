@@ -1,6 +1,6 @@
 ## Posts App
 
-#### This is the first SPA created with VistaJS recent created framework by [danilolmc](https://github.com/danilolmc).
+#### This is the first SPA created with VistaJS, framework created by [danilolmc](https://github.com/danilolmc).
 
 # Technologies
 - VistaJS
