@@ -35,8 +35,8 @@ const Feed = Component('app-feed', () => {
                                             <p class="description">
                                                 ${post.body}
                                             </p>
-                                            <div>
-                                                ${post.tags.map(tag => (`<span>${tag}</span>`))}
+                                            <div class="tags">
+                                                ${post.tags.map(tag => (`<span>#${tag}</span>`)).join('')}
                                             </div>
                                         </div>
                                         <footer>
