@@ -3,7 +3,7 @@ import {router} from 'vistajs/router';
 
 import './notFound.css';
 
-const Index = Component('app-not-found', () => {
+const NotFound = Component('app-not-found', () => {
 
     const route = router()
 
@@ -20,4 +20,4 @@ const Index = Component('app-not-found', () => {
     `;
 });
 
-export default Index;
+export default NotFound;
