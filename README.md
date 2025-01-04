@@ -12,21 +12,25 @@
 - Clone this repository
 ```bash
   git clone https://github.com/danilolmc/vistajs-posts-app.git
+```
 
-- Run `npm install`
+- Install dependencies
+
 ```bash
   npm install
 ```
 
-- Run `npm start`
+- Start the app
 ```bash
   npm start
 ```
-- Open your browser at `http://localhost:3333`
 
+- Your app will be running at `http://localhost:3333`
 
 # Building
-Run `npm run build`
+
 ```bash
   npm run build
 ```
+
+- Bundled files will be at `/dist` folder
