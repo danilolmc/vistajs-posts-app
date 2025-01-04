@@ -18,5 +18,9 @@ export const routes: Routes = [
         path: 'feed',
         canActivate: [auth_service.isAuthenticated],
         component: lazy(() => import('./pages/feed'))
+    },
+    {
+        path: '**',
+        component: lazy(() => import('./pages/404'))
     }
 ]
